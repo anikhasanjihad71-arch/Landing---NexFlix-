@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- ========== SEO META TAGS ========== -->
+    <meta name="title" content="RNEXFLIX - Watch Unlimited Movies & TV Shows Free">
+    <meta name="description" content="Watch unlimited movies and TV shows for free on RNEXFLIX. Stream anywhere, completely free. No subscription, no credit card required. Join our Telegram community for requests.">
+    <meta name="keywords" content="free movies, free tv shows, streaming, watch online, RNEXFLIX, movies free, tv series free, Bangladesh streaming">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="RNEXFLIX">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 day">
+    
+    <!-- ========== OPEN GRAPH / SOCIAL MEDIA ========== -->
+    <meta property="og:title" content="RNEXFLIX - Watch Unlimited Movies & TV Shows Free">
+    <meta property="og:description" content="Stream unlimited movies and TV shows anywhere, completely free. No subscription needed.">
+    <meta property="og:image" content="https://i.postimg.cc/G3gj5sdh/images.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://rnexflix.top">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="RNEXFLIX">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RNEXFLIX - Watch Unlimited Movies & TV Shows Free">
+    <meta name="twitter:description" content="Stream unlimited movies and TV shows anywhere, completely free.">
+    <meta name="twitter:image" content="https://i.postimg.cc/G3gj5sdh/images.jpg">
+    
+    <!-- ========== STRUCTURED DATA (SCHEMA.ORG) ========== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "RNEXFLIX",
+        "url": "https://rnexflix.top",
+        "description": "Watch unlimited movies and TV shows for free. Stream anywhere, completely free.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.rnexflix.top/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <title>RNEXFLIX - Watch Unlimited Movies & TV Shows Free</title>
+    
+    <!-- ========== PRELOAD HERO IMAGE ========== -->
+    <link rel="preload" as="image" href="https://i.postimg.cc/G3gj5sdh/images.jpg" fetchpriority="high">
+    
+    <!-- ========== CDN RESOURCES ========== -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- ========== FAVICON ========== -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        netflix: '#E50914',
+                        darkBg: '#000000'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+        html {
+            overflow-x: hidden;
+            width: 100%;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+            overflow-y: auto;
+            width: 100%;
+            min-height: 100vh;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        ::-webkit-scrollbar{height:6px;width:8px}
+        ::-webkit-scrollbar-track{background:#000}
+        ::-webkit-scrollbar-thumb{background:#333;border-radius:10px}
+        ::-webkit-scrollbar-thumb:hover{background:#E50914}
+
+        .trending-card:focus-visible {
+            outline: 2px solid #E50914;
+            outline-offset: 4px;
+            border-radius: 8px;
+        }
+
+        /* ========== NETFLIX CURVED LOGO ========== */
+        .logo-curved {
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            font-weight: 900;
+            font-size: 2rem;
+            letter-spacing: -1px;
+            display: inline-block;
+            transform: perspective(400px) rotateX(12deg);
+            background: linear-gradient(180deg, #ff2020 0%, #E50914 30%, #cc0000 70%, #990000 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: drop-shadow(0 6px 10px rgba(229,9,20,0.5)) drop-shadow(0 0 25px rgba(229,9,20,0.3));
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        .logo-curved:hover {
+            transform: perspective(400px) rotateX(0deg) scale(1.06);
+            filter: drop-shadow(0 8px 15px rgba(229,9,20,0.7)) drop-shadow(0 0 40px rgba(229,9,20,0.5));
+        }
+        @media(min-width:768px){.logo-curved{font-size:3rem;letter-spacing:-2px}}
+
+        /* ========== HERO SECTION ========== */
+        .hero-wrapper {
+            position: relative;
+            min-height: 85vh;
+            background: #000;
+            overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background: url('https://i.postimg.cc/G3gj5sdh/images.jpg') center/cover no-repeat;
+            animation: slowZoom 20s infinite alternate ease-in-out;
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, #000 0%, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.85) 100%);
+        }
+        /* Additional ambient glow overlay */
+        .hero-ambient-glow {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 40%;
+            background: radial-gradient(ellipse, rgba(229,9,20,0.08) 0%, transparent 70%);
+            z-index: 2;
+            pointer-events: none;
+            animation: ambientPulse 4s infinite ease-in-out;
+        }
+        @keyframes ambientPulse {
+            0%,100%{opacity:0.5;transform:translate(-50%,-50%) scale(1)}
+            50%{opacity:1;transform:translate(-50%,-50%) scale(1.1)}
+        }
+        @keyframes slowZoom {
+            0%{transform:scale(1)}
+            100%{transform:scale(1.05)}
+        }
+
+        /* ========== CURVED DIVIDER ========== */
+        .divider-container {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            z-index: 10;
+            pointer-events: none;
+        }
+        .blue-glow {
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 100px;
+            background: radial-gradient(ellipse at 50% 0%, rgba(0,100,255,0.25) 0%, rgba(0,50,200,0.12) 30%, transparent 70%);
+            filter: blur(25px);
+            z-index: 1;
+            animation: pulseGlow 3s infinite ease-in-out;
+        }
+        @keyframes pulseGlow {
+            0%,100%{opacity:0.5;transform:translateX(-50%) scaleY(1)}
+            50%{opacity:0.9;transform:translateX(-50%) scaleY(1.15)}
+        }
+        .curve-shape {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 130%;
+            height: 60px;
+            background: #000;
+            border-radius: 50% 50% 0 0;
+            z-index: 3;
+            box-shadow: 0 -3px 0 #E50914, 0 -8px 20px rgba(229,9,20,0.3), 0 -20px 40px rgba(229,9,20,0.1);
+        }
+        .red-line {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 7px;
+            background: linear-gradient(180deg, #E50914, #8B0000, #000);
+            z-index: 2;
+            box-shadow: 0 4px 15px rgba(229,9,20,0.4), 0 0 30px rgba(0,80,255,0.15);
+        }
+
+        /* ========== TRENDING SECTION ========== */
+        .trending-section {
+            position: relative;
+            z-index: 20;
+            background: #000;
+            margin-top: -2px;
+        }
+
+        /* ========== SLIDER CONTAINER ========== */
+        .slider-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
+            cursor: grab;
+            padding-bottom: 10px;
+            touch-action: pan-x;
+        }
+        .slider-container:active{cursor:grabbing}
+        .slider-container::-webkit-scrollbar{height:4px}
+        .slider-container::-webkit-scrollbar-track{background:transparent}
+        .slider-container::-webkit-scrollbar-thumb{background:#444;border-radius:10px}
+
+        /* ========== SKELETON LOADING ========== */
+        .skeleton-card {
+            width: 170px;
+            min-width: 170px;
+            height: 240px;
+            margin-right: 20px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #1a1a1a 25%, #2a2a2a 50%, #1a1a1a 75%);
+            background-size: 200% 100%;
+            animation: skeletonShimmer 1.5s infinite;
+        }
+        @media(min-width:768px){.skeleton-card{width:210px;min-width:210px;height:290px;margin-right:28px}}
+        @keyframes skeletonShimmer {
+            0%{background-position:-200% 0}
+            100%{background-position:200% 0}
+        }
+
+        /* ========== TRENDING CARDS ========== */
+        .trending-card {
+            position: relative;
+            width: 170px;
+            min-width: 170px;
+            height: 240px;
+            margin-right: 20px;
+            flex-shrink: 0;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            scroll-snap-align: start;
+            opacity: 0;
+            transform: translateX(30px);
+            animation: cardSlideIn 0.5s ease forwards;
+        }
+        @keyframes cardSlideIn {
+            to{opacity:1;transform:translateX(0)}
+        }
+        @media(min-width:768px){.trending-card{width:210px;min-width:210px;height:290px;margin-right:28px}}
+        .trending-card:hover{transform:translateY(-12px) scale(1.06);z-index:30}
+        .trending-card:active{transform:scale(0.98);transition:transform 0.1s ease}
+        
+        .trending-number {
+            position: absolute;
+            left: -12px;
+            bottom: 8px;
+            font-size: 6rem;
+            font-weight: 900;
+            line-height: 1;
+            color: #000;
+            -webkit-text-stroke: 3px #555;
+            z-index: 10;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+        @media(min-width:768px){.trending-number{font-size:9rem;left:-22px;bottom:12px}}
+        .trending-card:hover .trending-number,
+        .trending-card:focus-visible .trending-number {
+            -webkit-text-stroke: 4px #fff;
+            text-shadow: 0 0 20px rgba(229,9,20,0.7);
+        }
+        
+        .trending-poster {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 73%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.9);
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            z-index: 20;
+        }
+        .trending-card:hover .trending-poster,
+        .trending-card:focus-visible .trending-poster {
+            border-color: rgba(255,255,255,0.5);
+            box-shadow: 0 15px 35px rgba(229,9,20,0.5);
+        }
+        .trending-poster img {
+            transition: transform 0.5s ease;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .trending-card:hover .trending-poster img,
+        .trending-card:focus-visible .trending-poster img{transform:scale(1.1)}
+
+        /* ========== FEATURE CARDS ========== */
+        .feature-card {
+            background: linear-gradient(145deg, rgba(20,18,40,0.7), rgba(10,10,15,0.9));
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.4s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(229,9,20,0.5);
+            box-shadow: 0 10px 30px rgba(229,9,20,0.15);
+        }
+
+        /* ========== MODAL ========== */
+        .modal-glass {
+            background: rgba(10,10,10,0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .modal-scroll::-webkit-scrollbar{width:6px}
+        .modal-scroll::-webkit-scrollbar-thumb{background:#555;border-radius:10px}
+
+        /* ========== SEARCH INPUT ========== */
+        .search-box {
+            background: rgba(0,0,0,0.8);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        @media(max-width:640px){.search-box{background:rgba(0,0,0,0.92)}}
+        input[type="text"]{font-size:16px!important}
+    </style>
+</head>
+<body>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-wrapper flex flex-col">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-ambient-glow"></div>
+
+        <div class="relative z-10 flex flex-col flex-1">
+            
+            <header class="flex justify-between items-center p-5 md:px-16 md:py-6" data-aos="fade-down" data-aos-duration="800">
+                <span class="logo-curved" tabindex="0" aria-label="RNEXFLIX Home">RNEXFLIX</span>
+                <div class="flex items-center gap-3 md:gap-4">
+                    <a href="https://t.me/rnexflix" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-white hover:scale-110 transition-all text-xl md:text-2xl" aria-label="Join Telegram Channel">
+                        <i class="fab fa-telegram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://app.rnexflix.top/" class="bg-netflix hover:bg-red-700 text-white font-semibold py-2 px-5 md:px-6 rounded-md text-sm transition-all duration-300 hover:scale-105 shadow-[0_0_15px_rgba(229,9,20,0.5)] whitespace-nowrap">
+                        <i class="fab fa-android mr-2" aria-hidden="true"></i>Get App
+                    </a>
+                </div>
+            </header>
+
+            <div class="flex-1 flex flex-col justify-center items-center text-center px-4">
+                <div class="max-w-4xl">
+                    <h1 class="text-3xl md:text-6xl font-black leading-tight mb-5 drop-shadow-2xl" data-aos="zoom-in" data-aos-duration="1000">
+                        Unlimited movies, TV shows, and more
+                    </h1>
+                    <p class="text-lg md:text-2xl font-medium mb-6 text-gray-200" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+                        Watch anywhere. Completely Free.
+                    </p>
+                    <p class="text-base md:text-lg mb-8 text-gray-400" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
+                        Ready to watch? Enter your search keyword to access streaming links directly.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-3 px-2 items-center max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="350" data-aos-duration="800">
+                        <form id="searchForm" class="flex-1 w-full flex flex-col sm:flex-row gap-2">
+                            <div class="relative flex-1">
+                                <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 text-lg z-10 pointer-events-none" aria-hidden="true"></i>
+                                <input type="text" id="searchInput" placeholder="Search for movies or shows..." required
+                                    class="w-full pl-12 pr-5 py-4 search-box rounded-md text-white focus:outline-none focus:border-netflix focus:ring-2 focus:ring-netflix text-base md:text-lg transition-all" aria-label="Search movies">
+                            </div>
+                            <button type="submit" class="bg-netflix hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-md flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-[0_0_20px_rgba(229,9,20,0.6)] whitespace-nowrap">
+                                <i class="fas fa-search mr-2" aria-hidden="true"></i> Search
+                            </button>
+                        </form>
+                        <a href="https://rnexflix.top" target="_blank" rel="noopener noreferrer" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold text-lg px-8 py-4 rounded-md flex items-center justify-center transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,255,255,0.2)] whitespace-nowrap backdrop-blur-sm">
+                            <i class="fas fa-compass mr-2" aria-hidden="true"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-container">
+            <div class="blue-glow"></div>
+            <div class="curve-shape"></div>
+            <div class="red-line"></div>
+        </div>
+  </section>
+  <!-- ==================== TRENDING SECTION ==================== -->
+<section class="trending-section py-16 px-6 md:px-16" aria-labelledby="trending-heading">
+    <h3 id="trending-heading" class="text-2xl md:text-3xl font-bold mb-8 flex items-center">
+        <i class="fas fa-fire text-netflix mr-3 animate-pulse" aria-hidden="true"></i> Trending Now
+    </h3>
+    
+    <div id="skeleton-loader" class="flex overflow-hidden pt-6 pl-4" aria-label="Loading movies">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card hidden md:block"></div>
+        <div class="skeleton-card hidden md:block"></div>
+    </div>
+
+    <div id="movie-slider" class="slider-container flex pt-6 pl-4 hidden" role="list" aria-label="Trending movies list"></div>
+    
+    <div id="error-msg" class="text-center py-8 hidden" role="alert">
+        <i class="fas fa-exclamation-triangle text-netflix text-4xl mb-4" aria-hidden="true"></i>
+        <p class="text-netflix text-lg font-semibold">Failed to load movies</p>
+        <p class="text-gray-400 text-sm mt-2">Please check your connection and try again</p>
+        <button id="retry-btn" class="mt-4 bg-netflix hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-md transition-all duration-300">
+            <i class="fas fa-redo mr-2" aria-hidden="true"></i> Retry
+        </button>
+    </div>
+
+    <div id="no-results" class="text-center py-8 hidden" role="status">
+        <i class="fas fa-film text-gray-600 text-5xl mb-4" aria-hidden="true"></i>
+        <p class="text-gray-400 text-lg">No movies found at the moment</p>
+        <p class="text-gray-500 text-sm mt-2">Check back later for new additions!</p>
+    </div>
+</section>
+
+<!-- ==================== FEATURES SECTION ==================== -->
+<section class="py-16 px-6 md:px-16 bg-[#000] border-t-8 border-[#111]" aria-labelledby="features-heading">
+    <h3 id="features-heading" class="text-2xl md:text-3xl font-bold mb-10" data-aos="fade-right">More Reasons to Join RNEXFLIX</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="feature-card p-8 rounded-xl flex flex-col justify-between min-h-[250px]" data-aos="zoom-in-up" data-aos-delay="100">
+            <div><h4 class="text-2xl font-bold mb-4">Enjoy on your TV</h4><p class="text-gray-400 text-sm md:text-base">Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p></div>
+            <div class="text-right mt-4"><i class="fas fa-tv text-purple-500 text-4xl" aria-hidden="true"></i></div>
+        </div>
+        <div class="feature-card p-8 rounded-xl flex flex-col justify-between min-h-[250px]" data-aos="zoom-in-up" data-aos-delay="200">
+            <div><h4 class="text-2xl font-bold mb-4">Download your shows</h4><p class="text-gray-400 text-sm md:text-base">Save your favorites easily and always have something to watch with our official Android app.</p></div>
+            <div class="text-right mt-4"><i class="fab fa-android text-green-500 text-4xl" aria-hidden="true"></i></div>
+        </div>
+        <div class="feature-card p-8 rounded-xl flex flex-col justify-between min-h-[250px]" data-aos="zoom-in-up" data-aos-delay="300">
+            <div><h4 class="text-2xl font-bold mb-4">Watch everywhere</h4><p class="text-gray-400 text-sm md:text-base">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p></div>
+            <div class="text-right mt-4"><i class="fas fa-mobile-alt text-blue-500 text-4xl" aria-hidden="true"></i></div>
+        </div>
+        <div class="feature-card p-8 rounded-xl flex flex-col justify-between min-h-[250px]" data-aos="zoom-in-up" data-aos-delay="400">
+            <div><h4 class="text-2xl font-bold mb-4">Request Content</h4><p class="text-gray-400 text-sm md:text-base">Join our Telegram community. Request any movie or series and we will upload the indexing links fast.</p></div>
+            <div class="text-right mt-4"><i class="fab fa-telegram-plane text-emerald-400 text-4xl" aria-hidden="true"></i></div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== FAQ SECTION ==================== -->
+<section class="py-20 px-6 md:px-16 bg-black border-t-8 border-[#111]" aria-labelledby="faq-heading">
+    <h3 id="faq-heading" class="text-3xl md:text-4xl font-black text-center mb-12" data-aos="fade-up">Frequently Asked Questions</h3>
+    <div class="max-w-4xl mx-auto space-y-2">
+        
+        <div class="bg-[#1a1a1a] hover:bg-[#2d2d2d] transition duration-300 rounded" data-aos="fade-up" data-aos-delay="100">
+            <button id="faq-btn-1" class="w-full p-5 md:p-6 text-left font-semibold text-lg md:text-2xl flex justify-between items-center" aria-expanded="false" aria-controls="faq-ans-1">
+                <span>What is RNEXFLIX?</span><i class="fas fa-plus transition-transform duration-300" aria-hidden="true"></i>
+            </button>
+            <div id="faq-ans-1" class="hidden px-6 pb-6 text-gray-300 leading-relaxed md:text-lg" role="region" aria-labelledby="faq-btn-1">
+                RNEXFLIX is a completely free streaming index directory. We organize and provide public links for movies and web series across the internet in a premium UI.
+            </div>
+        </div>
+
+        <div class="bg-[#1a1a1a] hover:bg-[#2d2d2d] transition duration-300 rounded" data-aos="fade-up" data-aos-delay="150">
+            <button id="faq-btn-2" class="w-full p-5 md:p-6 text-left font-semibold text-lg md:text-2xl flex justify-between items-center" aria-expanded="false" aria-controls="faq-ans-2">
+                <span>Is it really completely free?</span><i class="fas fa-plus transition-transform duration-300" aria-hidden="true"></i>
+            </button>
+            <div id="faq-ans-2" class="hidden px-6 pb-6 text-gray-300 leading-relaxed md:text-lg" role="region" aria-labelledby="faq-btn-2">
+                Yes! There are no hidden charges, no subscription fees, and no credit card required. You can search, click, and start watching immediately.
+            </div>
+        </div>
+
+        <div class="bg-[#1a1a1a] hover:bg-[#2d2d2d] transition duration-300 rounded" data-aos="fade-up" data-aos-delay="200">
+            <button id="faq-btn-3" class="w-full p-5 md:p-6 text-left font-semibold text-lg md:text-2xl flex justify-between items-center" aria-expanded="false" aria-controls="faq-ans-3">
+                <span>Do I need to create an account?</span><i class="fas fa-plus transition-transform duration-300" aria-hidden="true"></i>
+            </button>
+            <div id="faq-ans-3" class="hidden px-6 pb-6 text-gray-300 leading-relaxed md:text-lg" role="region" aria-labelledby="faq-btn-3">
+                No account is required. We believe in instant access. Just find what you want to watch and enjoy without any registration hurdles.
+            </div>
+        </div>
+
+        <div class="bg-[#1a1a1a] hover:bg-[#2d2d2d] transition duration-300 rounded" data-aos="fade-up" data-aos-delay="250">
+            <button id="faq-btn-4" class="w-full p-5 md:p-6 text-left font-semibold text-lg md:text-2xl flex justify-between items-center" aria-expanded="false" aria-controls="faq-ans-4">
+                <span>How often are new movies added?</span><i class="fas fa-plus transition-transform duration-300" aria-hidden="true"></i>
+            </button>
+            <div id="faq-ans-4" class="hidden px-6 pb-6 text-gray-300 leading-relaxed md:text-lg" role="region" aria-labelledby="faq-btn-4">
+                Our database is updated daily with the latest releases. You can also join our Telegram channel to request specific movies or shows.
+            </div>
+        </div>
+
+        <div class="bg-[#1a1a1a] hover:bg-[#2d2d2d] transition duration-300 rounded" data-aos="fade-up" data-aos-delay="300">
+            <button id="faq-btn-5" class="w-full p-5 md:p-6 text-left font-semibold text-lg md:text-2xl flex justify-between items-center" aria-expanded="false" aria-controls="faq-ans-5">
+                <span>Can I download movies to watch offline?</span><i class="fas fa-plus transition-transform duration-300" aria-hidden="true"></i>
+            </button>
+            <div id="faq-ans-5" class="hidden px-6 pb-6 text-gray-300 leading-relaxed md:text-lg" role="region" aria-labelledby="faq-btn-5">
+                Yes, most of the links we provide support both direct streaming and downloading. For the best experience, we recommend using our Android app.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ==================== MODAL ==================== -->
+<div id="movieModal" class="fixed inset-0 z-[100] hidden flex justify-center items-center p-4 md:p-6" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="absolute inset-0 bg-black/90 backdrop-blur-sm" id="modal-overlay"></div>
+    <div id="modalContent" class="modal-glass relative w-full max-w-3xl max-h-[85vh] rounded-xl flex flex-col overflow-hidden shadow-[0_0_40px_rgba(0,0,0,1)] transform scale-95 opacity-0 transition-all duration-300" role="document">
+        <button id="modal-close-btn" class="absolute top-3 right-3 z-20 bg-black/50 border border-white/20 text-white rounded-full w-9 h-9 flex items-center justify-center hover:bg-netflix transition-all" aria-label="Close modal">
+            <i class="fas fa-times text-sm" aria-hidden="true"></i>
+        </button>
+        <div class="overflow-y-auto modal-scroll flex-1">
+            <div class="relative h-48 md:h-64 w-full">
+                <img id="modalBackdrop" src="" alt="Movie backdrop" class="w-full h-full object-cover" decoding="async">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent"></div>
+                <div class="absolute bottom-4 left-5 right-5">
+                    <h2 id="modalTitle" class="text-2xl md:text-4xl font-black drop-shadow-lg leading-tight"></h2>
+                </div>
+            </div>
+            <div class="p-5 md:p-7 bg-[#0a0a0a]">
+                <div class="flex flex-wrap items-center gap-3 mb-4 text-xs md:text-sm font-bold text-gray-400">
+                    <span class="text-green-500"><i class="fas fa-unlock mr-1" aria-hidden="true"></i> Free Access</span>
+                    <span class="border border-gray-600 px-2 py-0.5 rounded text-xs text-white">HD</span>
+                    <span id="modalGenres" class="text-gray-300"></span>
+                </div>
+                <p id="modalDesc" class="text-gray-300 text-sm md:text-base mb-6 leading-relaxed"></p>
+                <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="block w-full md:w-auto md:inline-flex items-center justify-center text-center bg-white text-black hover:bg-gray-300 font-bold py-3 px-8 rounded-md transition-all duration-200 shadow-lg">
+                    <i class="fas fa-play mr-2" aria-hidden="true"></i> Watch Now
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="bg-black py-12 px-6 md:px-16 text-gray-500 text-sm border-t border-[#222]" role="contentinfo">
+    <p class="mb-6 hover:underline cursor-pointer">Questions? Contact us.</p>
+    <nav class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8" aria-label="Footer navigation">
+        <a href="https://www.rnexflix.top/p/faq.html" class="hover:underline">FAQ</a>
+        <a href="https://www.rnexflix.top/p/about-us.html" class="hover:underline">About Us</a>
+        <a href="https://www.rnexflix.top/p/contact-us.html" class="hover:underline">Contact Us</a>
+        <a href="https://www.rnexflix.top/p/privacy-policy.html" class="hover:underline">Privacy Policy</a>
+        <a href="https://www.rnexflix.top/p/terms-and-conditions.html" class="hover:underline">Terms & Conditions</a>
+        <a href="https://www.rnexflix.top/p/security-center.html" class="hover:underline">Security Center</a>
+        <a href="https://www.rnexflix.top/p/feedback.html" class="hover:underline">Feedback</a>
+    </nav>
+    <p class="text-xs">&copy; 2026 RNEXFLIX Bangladesh. All rights reserved.</p>
+</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    (function() {
+        'use strict';
+
+        AOS.init({ once: true, offset: 50, duration: 600 });
+
+        const slider = document.getElementById('movie-slider');
+        const skeletonLoader = document.getElementById('skeleton-loader');
+        const errorMsg = document.getElementById('error-msg');
+        const noResults = document.getElementById('no-results');
+        const retryBtn = document.getElementById('retry-btn');
+        const modal = document.getElementById('movieModal');
+        const modalContent = document.getElementById('modalContent');
+        const searchForm = document.getElementById('searchForm');
+        const searchInput = document.getElementById('searchInput');
+
+        let isLoading = false;
+        let previousOverflow = '';
+        let focusTrapCleanup = null;
+        const CACHE_KEY = 'rnexflix_movies';
+        const CACHE_VER_KEY = 'rnexflix_version';
+        const CACHE_VERSION = 'v3'; // ✅ Version bump for fresh cache
+        const CACHE_DURATION = 30 * 60 * 1000;
+
+        const SHEET_API_URL = 'https://api.sheetbest.com/sheets/6ae1b3f0-5aef-489c-bc06-b30c522517a2';
+        const FETCH_TIMEOUT = 8000;
+
+        const FALLBACK_IMG = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" fill="%231a1a1a"><rect width="300" height="450"/><text x="150" y="225" fill="%23E50914" text-anchor="middle" font-size="20">No Image</text></svg>');
+
+        // ==================== CACHE HELPERS ====================
+        function getCacheVersion() { try { return localStorage.getItem(CACHE_VER_KEY); } catch(e) { return null; } }
+        function setCacheVersion(v) { try { localStorage.setItem(CACHE_VER_KEY, v); } catch(e) {} }
+        function getCachedData() {
+            try {
+                if (getCacheVersion() !== CACHE_VERSION) return null;
+                const ts = localStorage.getItem(CACHE_KEY + '_ts');
+                if (!ts || Date.now() - parseInt(ts) > CACHE_DURATION) { 
+                    try { localStorage.removeItem(CACHE_KEY); localStorage.removeItem(CACHE_KEY + '_ts'); } catch(e) {} 
+                    return null; 
+                }
+                const d = localStorage.getItem(CACHE_KEY);
+                return d ? JSON.parse(d) : null;
+            } catch(e) { return null; }
+        }
+        function setCachedData(data) {
+            try {
+                localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+                localStorage.setItem(CACHE_KEY + '_ts', Date.now().toString());
+                setCacheVersion(CACHE_VERSION);
+            } catch(e) {}
+        }
+
+        // ==================== API FETCH ====================
+        async function fetchWithTimeout(url, timeout) {
+            const controller = new AbortController();
+            const id = setTimeout(() => controller.abort(), timeout);
+            try { return await fetch(url, { signal: controller.signal }); }
+            finally { clearTimeout(id); }
+        }
+
+        function retryFetch() {
+            if (isLoading) return;
+            errorMsg.classList.add('hidden');
+            noResults.classList.add('hidden');
+            skeletonLoader.classList.remove('hidden');
+            slider.classList.add('hidden');
+            slider.innerHTML = '';
+            loadMovies();
+        }
+
+        async function loadMovies() {
+            if (isLoading) return;
+            isLoading = true;
+            if (retryBtn) retryBtn.disabled = true;
+
+            try {
+                // Try cache first
+                const cached = getCachedData();
+                if (cached && cached.length > 0) {
+                    renderMovies(cached);
+                    skeletonLoader.classList.add('hidden');
+                    slider.classList.remove('hidden');
+                }
+
+                // Fetch fresh data
+                const res = await fetchWithTimeout(SHEET_API_URL, FETCH_TIMEOUT);
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const data = await res.json();
+
+                // Cache fresh data
+                setCachedData(data);
+
+                // Always re-render with fresh data to ensure description/genres show
+                slider.innerHTML = '';
+                renderMovies(data);
+
+                if (!data || data.length === 0) {
+                    if (!cached) { 
+                        skeletonLoader.classList.add('hidden'); 
+                        noResults.classList.remove('hidden'); 
+                    }
+                    isLoading = false; 
+                    if (retryBtn) retryBtn.disabled = false; 
+                    return;
+                }
+
+                skeletonLoader.classList.add('hidden');
+                slider.classList.remove('hidden');
+                errorMsg.classList.add('hidden');
+                noResults.classList.add('hidden');
+
+            } catch (error) {
+                console.error('Fetch error:', error);
+                const cached = getCachedData();
+                if (cached && cached.length > 0) {
+                    skeletonLoader.classList.add('hidden');
+                    slider.classList.remove('hidden');
+                    if (!slider.children.length) renderMovies(cached);
+                } else {
+                    skeletonLoader.classList.add('hidden');
+                    errorMsg.classList.remove('hidden');
+                }
+            } finally {
+                isLoading = false;
+                if (retryBtn) retryBtn.disabled = false;
+            }
+        }
+
+        // ==================== RENDER MOVIES ====================
+        function renderMovies(data) {
+            const sorted = [...data].sort((a, b) => (Number(a.Trending_Rank) || 999) - (Number(b.Trending_Rank) || 999));
+            const fragment = document.createDocumentFragment();
+
+            sorted.forEach((movie, idx) => {
+                if (!movie.Title) return;
+                
+                const rank = idx + 1;
+                const posterURL = String(movie.Poster_URL || FALLBACK_IMG);
+                
+                // ✅ FIX: Get values properly
+                const movieTitle = String(movie.Title || 'Untitled');
+                const movieBackdrop = String(movie.Backdrop_URL || posterURL);
+                const movieDesc = String(movie.Description || 'No description available.');
+                const movieLink = String(movie.Post_Link || '#');
+                const movieGenres = String(movie.Genres || 'Various');
+
+                const card = document.createElement('div');
+                card.className = 'trending-card group';
+                card.style.animationDelay = `${idx * 0.08}s`;
+                card.tabIndex = 0;
+                card.setAttribute('role', 'button');
+                card.setAttribute('aria-haspopup', 'dialog');
+                card.setAttribute('aria-label', 'View details for ' + movieTitle);
+
+                // ✅ FIX: Set ALL dataset values explicitly
+                card.dataset.backdrop = movieBackdrop;
+                card.dataset.title = movieTitle;
+                card.dataset.desc = movieDesc;
+                card.dataset.link = movieLink;
+                card.dataset.genres = movieGenres;
+
+                // ✅ FIX: Debug log to verify values
+                console.log('Card ' + rank + ':', {
+                    title: movieTitle,
+                    desc: movieDesc.substring(0, 50) + '...',
+                    genres: movieGenres,
+                    link: movieLink
+                });
+
+                card.innerHTML = 
+                    '<div class="trending-number">' + rank + '</div>' +
+                    '<div class="trending-poster">' +
+                        '<img src="' + posterURL + '" alt="' + escapeHTML(movieTitle) + '" loading="lazy" decoding="async" onerror="this.src=\'' + FALLBACK_IMG + '\'">' +
+                    '</div>' +
+                    '<div class="absolute -bottom-8 left-0 right-0 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">' +
+                        '<p class="text-xs font-bold text-gray-300 truncate px-2 drop-shadow-md">' + escapeHTML(movieTitle) + '</p>' +
+                    '</div>';
+
+                fragment.appendChild(card);
+            });
+
+            slider.appendChild(fragment);
+        }
+
+        function escapeHTML(str) {
+            const div = document.createElement('div');
+            div.textContent = String(str || '');
+            return div.innerHTML;
+        }
+
+        // ==================== EVENT DELEGATION ====================
+        slider.addEventListener('click', function(e) {
+            const card = e.target.closest('.trending-card');
+            if (!card) return;
+            
+            // ✅ FIX: Get values from dataset
+            const backdrop = card.dataset.backdrop;
+            const title = card.dataset.title;
+            const desc = card.dataset.desc;
+            const link = card.dataset.link;
+            const genres = card.dataset.genres;
+            
+            console.log('Opening modal:', { title, desc: desc.substring(0, 50), genres });
+            openModal(backdrop, title, desc, link, genres);
+        });
+
+        slider.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                const card = e.target.closest('.trending-card');
+                if (card) {
+                    e.preventDefault();
+                    openModal(
+                        card.dataset.backdrop,
+                        card.dataset.title,
+                        card.dataset.desc,
+                        card.dataset.link,
+                        card.dataset.genres
+                    );
+                }
+            }
+        });
+
+        // ==================== SEARCH ====================
+        searchForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const q = searchInput.value.trim();
+            if (q) window.location.href = 'https://www.rnexflix.top/search?q=' + encodeURIComponent(q);
+        });
+
+        // ==================== FAQ TOGGLES ====================
+        document.querySelectorAll('[id^="faq-btn-"]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const ans = document.getElementById(this.getAttribute('aria-controls'));
+                const icon = this.querySelector('i');
+                if (!ans) return;
+                if (ans.classList.contains('hidden')) {
+                    ans.classList.remove('hidden');
+                    icon.style.transform = 'rotate(45deg)';
+                    this.setAttribute('aria-expanded', 'true');
+                } else {
+                    ans.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                    this.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+
+        // ==================== MODAL FUNCTIONS ====================
+        function openModal(backdrop, title, desc, link, genres) {
+            console.log('Modal received:', { title, desc: String(desc).substring(0, 80), genres });
+            
+            const backdropImg = document.getElementById('modalBackdrop');
+            backdropImg.src = String(backdrop || FALLBACK_IMG);
+            backdropImg.onerror = function() { this.src = FALLBACK_IMG; };
+
+            // ✅ FIX: Set textContent properly
+            document.getElementById('modalTitle').textContent = String(title || 'Untitled');
+            document.getElementById('modalDesc').textContent = String(desc || 'No description available.');
+            document.getElementById('modalGenres').textContent = String(genres || 'Various');
+            document.getElementById('modalLink').href = String(link || '#');
+
+            previousOverflow = document.body.style.overflow;
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+
+            // Cleanup previous trap
+            if (focusTrapCleanup) focusTrapCleanup();
+            focusTrapCleanup = trapFocus(modal);
+
+            modalContent.addEventListener('transitionend', function handler() {
+                document.getElementById('modalLink').focus();
+                modalContent.removeEventListener('transitionend', handler);
+            }, { once: true });
+
+            requestAnimationFrame(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+                modalContent.classList.add('scale-100', 'opacity-100');
+            });
+        }
+
+        function closeModal() {
+            modalContent.classList.remove('scale-100', 'opacity-100');
+            modalContent.classList.add('scale-95', 'opacity-0');
+
+            if (focusTrapCleanup) { focusTrapCleanup(); focusTrapCleanup = null; }
+
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.style.overflow = previousOverflow || 'auto';
+            }, 300);
+        }
+
+        // ==================== FOCUS TRAP ====================
+        function trapFocus(element) {
+            const focusable = element.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+            if (focusable.length === 0) return function() {};
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+
+            function handler(e) {
+                if (e.key === 'Tab') {
+                    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+                    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+                }
+            }
+
+            element.addEventListener('keydown', handler);
+            return function() { element.removeEventListener('keydown', handler); };
+        }
+
+        // ==================== KEYDOWN (ESC + ZOOM) ====================
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+            if (e.ctrlKey || e.metaKey) {
+                if (e.key === '+' || e.key === '-' || e.key === '0' || e.key === '=') {
+                    e.preventDefault();
+                }
+            }
+        });
+
+        // ==================== MODAL CLOSE EVENTS ====================
+        document.getElementById('modal-overlay').addEventListener('click', closeModal);
+        document.getElementById('modal-close-btn').addEventListener('click', closeModal);
+        retryBtn.addEventListener('click', retryFetch);
+
+        // ==================== SLIDER DRAG ====================
+        let isDown = false, startX, scrollLeft;
+
+        slider.addEventListener('mousedown', function(e) {
+            isDown = true;
+            slider.style.cursor = 'grabbing';
+            slider.style.scrollBehavior = 'auto';
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+
+        window.addEventListener('mouseup', function() {
+            if (isDown) { isDown = false; slider.style.cursor = 'grab'; slider.style.scrollBehavior = 'smooth'; }
+        });
+
+        slider.addEventListener('mousemove', function(e) {
+            if (!isDown) return;
+            e.preventDefault();
+            slider.scrollLeft = scrollLeft - (e.pageX - slider.offsetLeft - startX) * 2;
+        });
+
+        // ==================== PREVENT ZOOM ====================
+        document.addEventListener('wheel', function(e) {
+            if (e.ctrlKey || e.metaKey) e.preventDefault();
+        }, { passive: false });
+
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', function(e) {
+            const now = Date.now();
+            if (now - lastTouchEnd <= 300) e.preventDefault();
+            lastTouchEnd = now;
+        }, false);
+
+        // ==================== STARTUP ====================
+        loadMovies();
+        console.log('✅ RNEXFLIX v3 Loaded - Description/Genres Fixed!');
+    })();
+    </script>
+</body>
+</html>
